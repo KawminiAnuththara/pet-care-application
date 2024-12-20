@@ -5,7 +5,14 @@
       "bundler": "metro"
     },
     "plugins": [
-      "expo-router"
+      "expo-router",
+      "expo-font",
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow PetCare to use your location."
+        }
+      ]
     ],
     "name": "PetCare",
     "slug": "PetCare"
